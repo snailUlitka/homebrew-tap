@@ -1,16 +1,26 @@
-# SnailUlitka Tap
+# SnailUlitka Homebrew Tap
 
-## How do I install these formulae?
+This tap distributes [Friction](https://github.com/snailUlitka/friction), a
+local-first workflow-friction tracker.
 
-`brew install snailulitka/tap/<formula>`
+## Install Friction
 
-Or `brew tap snailulitka/tap` and then `brew install <formula>`.
+```sh
+brew install snailulitka/tap/friction
+```
 
-Or, in a `brew bundle` `Brewfile`:
+Or tap the repository first:
+
+```sh
+brew tap snailulitka/tap
+brew install friction
+```
+
+For a `brew bundle` `Brewfile`:
 
 ```ruby
 tap "snailulitka/tap"
-brew "<formula>"
+brew "friction"
 ```
 
 ## Documentation
