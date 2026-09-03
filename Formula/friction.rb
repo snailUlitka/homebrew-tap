@@ -3,8 +3,8 @@ class Friction < Formula
 
   desc "Local-first workflow-friction tracker"
   homepage "https://github.com/snailUlitka/friction"
-  url "https://github.com/snailUlitka/friction/releases/download/v0.1.0/friction-0.1.0.tar.gz"
-  sha256 "48422e64918a191d3f53bbf3a7bd22cc259d06b6aecf77ff075586c82e7e55e3"
+  url "https://github.com/snailUlitka/friction/releases/download/v0.1.1/friction-0.1.1.tar.gz"
+  sha256 "2f32ee8e89d26550c64c4899c0b03b3013b896f0f5937ab9ca31e19217816153"
   license "MIT"
   head "https://github.com/snailUlitka/friction.git", branch: "main"
 
