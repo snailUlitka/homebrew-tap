@@ -1,8 +1,8 @@
 class Purra < Formula
   desc "High-performance Unicode scalar-to-text replacement engine and CLI"
   homepage "https://github.com/snailUlitka/purra"
-  url "https://github.com/snailUlitka/purra/archive/refs/tags/v1.1.0.tar.gz"
-  sha256 "4003ac4855685bbb9d198042ca589f452310b8208c2c307df5eafb5d41359988"
+  url "https://github.com/snailUlitka/purra/archive/refs/tags/v1.3.0.tar.gz"
+  sha256 "0a40a3e243942aae5324bb03e8dda5301dcc569e3f278df8a289e1d7f4610d55"
   license "MIT"
   head "https://github.com/snailUlitka/purra.git", branch: "main"
 
