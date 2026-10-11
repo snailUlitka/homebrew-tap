@@ -6,6 +6,12 @@ class Purra < Formula
   license "MIT"
   head "https://github.com/snailUlitka/purra.git", branch: "main"
 
+  bottle do
+    root_url "https://github.com/snailUlitka/homebrew-tap/releases/download/purra-1.3.0"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "8e1dfc6ef5b9b3e4ff683a783446fa0369bc2107cde6835fb005dbe758a4b380"
+    sha256 cellar: :any,                 x86_64_linux: "4183bb7f6d764faaa74998d92f8a56470d3746008d1a6fe9f40014331a75640b"
+  end
+
   depends_on "rust" => :build
 
   def install
